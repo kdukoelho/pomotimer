@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomotimer</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png"href="assets/favicon.png">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Pomotimer</h1>
+    </header>
+
+    <main>
+        <section id="mode-section">
+            <button id="focus-btn" class="mode-btn">Focus</button>
+            <button id="sbreak-btn" class="mode-btn">Short Break</button>
+            <button onclick="btnClicked()" id="lbreak-btn" class="mode-btn">Long Break</button>
+        </section>
+
+        <section id="timer-section">
+            <p id="timer-lbl">25:00</p>
+            <button id="start-btn">START</button>
+        </section>
+    </main>
+
+    <footer>
+        Developed by <a target="_blank" href="https://www.github.com/kdukoelho">kdukoelho</a>.
+    </footer>
+
+    <script type="text/javascript" src="script/timer.js"></script>
 </body>
 </html>
