@@ -29,10 +29,39 @@ buttons.forEach(button => {
         // Set the timer based on choosed mode.
         if(clickedButtonId == 'focus-btn'){
             timerLbl.innerHTML = '25:00';
+            setFocusTheme();
         } else if (clickedButtonId == 'sbreak-btn'){
             timerLbl.innerHTML = '5:00';
+            setSBreakTheme();
         } else if (clickedButtonId == 'lbreak-btn'){
             timerLbl.innerHTML = '15:00'
+            setLBreakTheme();
         }
     });      
 });
+
+function setFocusTheme() {
+    var root = document.documentElement;
+
+    root.style.setProperty('--cor-primaria', '#C04B31');
+    root.style.setProperty('--cor-secundaria', '#964F3F');
+    root.style.setProperty('--cor-terciaria', '#6B473F');
+
+    
+}
+
+function setSBreakTheme() {
+    var root = document.documentElement;
+    
+    root.style.setProperty('--cor-primaria', '#3F62D5');
+    root.style.setProperty('--cor-secundaria', '#41509B');
+    root.style.setProperty('--cor-terciaria', '#424A70');
+}
+
+function setLBreakTheme() {
+    var root = document.documentElement;
+    
+    root.style.setProperty('--cor-primaria', '#2B80FF');
+    root.style.setProperty('--cor-secundaria', '#5677AA');
+    root.style.setProperty('--cor-terciaria', '#556680');
+}
