@@ -3,9 +3,16 @@
 ## Objective
 A lot of people uses the pomodoro method to improve their studies, thinking in that, i made this web page to help you to put in practice this method.
 
-## 🚀 Getting Started 
+## 🚀 Getting Started
 
-Execute the in the terminal the following command to clone this repo into your machine:
+You can acess the web site using the following URL:
+```shell
+https://kdukoelho.github.io/pomotimer/
+```
+
+If you want to run it in your own machine:
+
+Execute in the terminal the following command to clone this repo into your machine:
 ```shell
 git clone https://github.com/kdukoelho/pomotimer.git
 ```
