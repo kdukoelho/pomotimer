@@ -30,12 +30,15 @@ buttons.forEach(button => {
         if(clickedButtonId == 'focus-btn'){
             timerLbl.innerHTML = '25:00';
             setFocusTheme();
+            stopTimer();
         } else if (clickedButtonId == 'sbreak-btn'){
-            timerLbl.innerHTML = '5:00';
+            timerLbl.innerHTML = '05:00';
             setSBreakTheme();
+            stopTimer();
         } else if (clickedButtonId == 'lbreak-btn'){
             timerLbl.innerHTML = '15:00'
             setLBreakTheme();
+            stopTimer();
         }
     });      
 });
