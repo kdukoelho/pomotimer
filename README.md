@@ -5,10 +5,8 @@ A lot of people uses the pomodoro method to improve their studies, thinking in t
 
 ## 🚀 Getting Started
 
-You can acess the web site using the following URL:
-```shell
-https://kdukoelho.github.io/pomotimer/
-```
+You can acess the web site using the following URL: <br>
+<a href="https://kdukoelho.github.io/pomotimer/" target="_blank">https://kdukoelho.github.io/pomotimer/</a>
 
 If you want to run it in your own machine:
 
